@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="csslogin.css">
+    <title>SIGN</title>
+</head>
+<body>
+    <div class="cotn_principal">
+        <div class="cont_centrar">
+        
+          <div class="cont_login">
+        <div class="cont_info_log_sign_up">
+              <div class="col_md_login">
+        <div class="cont_ba_opcitiy">
+                <h2>SIGN IN</h2>  
+          <p>Vous avez un ticket ? Voyagez directement vers votre profile !</p> 
+          <button class="btn_login" onclick="change_to_login()">SIGN IN</button>
+          </div>
+          </div>
+        <div class="col_md_sign_up">
+        <div class="cont_ba_opcitiy">
+          <h2>SIGN UP</h2>
+        
+          
+          <p>Vous n'avez pas un ticket ? Reserver dés maintenant pour voyager vers votre profile !</p>
+        
+          <button class="btn_sign_up" onclick="change_to_sign_up()">SIGN UP</button>
+        </div>
+          </div>
+               </div>
+        
+            
+            <div class="cont_back_info">
+               <div class="cont_img_back_grey">
+               <img src="https://www.lopinion.ma/photo/art/grande/77923260-56592469.jpg?v=1705837363" alt="" />
+               </div>
+               
+            </div>
+        <div class="cont_forms" >
+            <div class="cont_img_back_">
+               <img src="https://www.lopinion.ma/photo/art/grande/77923260-56592469.jpg?v=1705837363" alt="" />
+               </div>
+         <div class="cont_form_login">
+        <a href="#" onclick="hidden_login_and_sign_up()" ><i class="material-icons">&#xE5C4;</i></a>
+           <h2>SIGN IN</h2>
+         <input type="email" placeholder="Email" required/>
+        <input type="password" placeholder="Password" id="p1" required/>
+        <button class="btn_login1" onclick="login()">SIGN IN</button>
+          </div>
+          
+           <div class="cont_form_sign_up">
+        <a href="#" onclick="hidden_login_and_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+             <h2>SIGN UP</h2>
+        <input type="email" placeholder="Email" required/>
+        <input type="text" placeholder="User" required/>
+        <input type="password" placeholder="Password" id="p2" required/>
+        <input type="password" placeholder="Confirm Password" required/>
+        <button class="btn_sign_up1" onclick="signUp()">SIGN UP</button>
+        
+          </div>
+        
+            </div>
+            
+          </div>
+         </div>
+        </div>
+        <script src="scriptlogin.js"></script>
+</body>
+</html>

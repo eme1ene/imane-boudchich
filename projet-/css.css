@@ -1,0 +1,374 @@
+/* GENERAL */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #444;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #777;
+}
+
+.image {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.image img {
+    width: 50%;
+    border-radius: 50%;
+    border: 5px solid #444;
+}
+
+.content {
+    text-align: justify;
+}
+body 
+{
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+}
+
+h1,h3,h4 {
+  color: rgb(0, 0, 0);  
+}
+
+h2 {
+  color: rgb(0, 0, 0);  
+}
+h1
+{
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+}
+h2
+{
+    font-size: 70px;
+}
+h3
+{
+    font-size: 30px;
+}
+h4
+{
+    font-size: 24px;
+}
+p
+{
+    line-height: 20px;
+    color: #777;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.wrapper
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.wrapper1
+{
+    width: px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.clear
+{
+    clear: both;   
+}
+small
+{
+    font-size: 13px;
+    font-style:italic;
+}
+
+/* HEADER */
+
+header 
+{
+    background-color: #d3c523; /* Couleur de fond du header */
+    padding: 0px;
+    position: relative   ;
+    height: 120px;   
+}
+header h1
+{
+    float: left;
+    margin-top: 32px;
+   
+}
+header nav
+{
+    float: right;   
+    margin-top: 50px;
+}
+header nav ul li
+{
+    
+    display: inline-block;
+}
+header nav ul li a
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* MAIN IMAGE */
+
+#main-image
+{
+    height: 580px;
+    background: url('https://img.passeportsante.net/1200x675/2020-01-30/i93408-.jpeg') center;
+}
+#main-image h2
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+}
+.button-1
+{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: #d3c523;
+    color: #fff;
+    font-size: 25px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius:  10px;
+}
+.button-1:hover
+{
+     background: #08090a;
+}
+
+/* STEPS */
+
+#steps ul
+{
+    margin: 80px 0;
+}
+#steps ul li
+{
+    width: 300px;
+    float:left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+    
+}
+#steps h4
+{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#steps p
+{
+    margin-bottom: 20px;
+}
+
+
+
+/* POSSIBILITIES */
+
+
+#possibilities
+{
+    background-color: #beb31d;
+    padding-top:  90px ;
+    
+}
+#possibilities article
+{
+    width: 460px;
+    height: 270px;
+    float: right;
+    border-radius: 100px;
+}
+#possibilities article:first-child
+{
+    margin-right: 10px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+.overlay
+{
+    background: rgba(255,255,255, 0.95);
+    height: 100%;
+    width: 190px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+article h4
+{
+    border-bottom:  1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#possibilities p
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button-2
+{
+    color: #fff;
+    background-color: #d3c523;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+.button-2:hover
+{
+    color: #fff;
+    background-color:#08090a;
+}
+
+/* CONTACT */
+
+#contact
+{
+    padding: 300px 0;
+    text-align: center
+}
+#contact h3
+{
+    width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    border-bottom:  1px solid #d3c523;
+    padding-bottom: 20px;   
+}
+form
+{
+    margin: 60px 0 20px 0;
+}
+label
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+}
+input[type="text"]
+{
+    padding:10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+.button-3
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: #d3c523;
+    border-style: none;
+    border-radius: 3px;
+}
+.button-3:hover
+{
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+}
+
+/* FOOTER */
+
+footer
+{
+    height: 290px;
+   padding: 100px 0; ;
+    background-color: #d3c523;
+    
+}
+footer h1
+{
+    color:rgb(0, 0, 0);
+    text-align:center;
+    padding-top: 20px;
+}
+.footer{
+    background: url() no-repeat;
+    background-size: center;
+    background-position: center;
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    gap: 1rem;
+}
+.footer .box-container .box h3{
+    color: var(--white);
+    font-size: 1.5rem;
+    display: block;
+}
+.footer .box-container .box a{
+    color: var(--light-white);
+    font-size: 1.5rem;
+    display: block;
+}
+.footer .box-container .box a i{
+    color: var(--main-color);
+    padding-right: .5rem;
+    transition: .2s linear;
+}
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+.footer .home-right{
+    text-align: center;
+    padding-top: 3rem;
+    margin-top: 3rem;
+    border-top: .1rem solid var(--light-white);
+    font-size: 2rem;
+    color: var(--white);
+}
+.footer .home-right span {
+    color: var(--main-color);
+}
+
+
